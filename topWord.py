@@ -30,7 +30,7 @@ def get_most_used_words(directory):
     return most_common_words
 
 # Path to the directory containing the messages folder
-directory_path = "C:/Users/Adrian/Desktop/DiscordData/data/messages"
+directory_path = "data/messages"
 
 # Get the most used words across all messages.json files
 most_used_words = get_most_used_words(directory_path)
