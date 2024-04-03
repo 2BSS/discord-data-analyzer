@@ -29,7 +29,7 @@ def get_first_message(directory):
     return first_message
 
 # Path to the directory containing the messages folder
-directory_path = "C:/Users/Adrian/Desktop/DiscordData/data/messages"
+directory_path = "data/messages"
 
 # Get the first message ever sent
 first_message = get_first_message(directory_path)
