@@ -26,7 +26,7 @@ def get_top_50_characters(directory):
     return top_50_characters
 
 # Path to the directory containing the messages folder
-directory_path = "C:/Users/Adrian/Desktop/DiscordData/data/messages"
+directory_path = "data/messages"
 
 # Get the top 50 most used characters from all "Contents"
 top_50_characters = get_top_50_characters(directory_path)
